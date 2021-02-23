@@ -5,7 +5,7 @@
 	"version": "1.0",
 	"content_scripts": [
 		{
-			"js": ["privacy.js"],
+			"js": ["privacy.user.js"],
 			"matches": ["<all_urls>"],
 			"match_about_blank": true,
 			"all_frames": true,
