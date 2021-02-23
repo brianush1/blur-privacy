@@ -1,5 +1,11 @@
+The extension works reliably on both Firefox and Chrome.
+
+The userscript works for:
+- Violentmonkey on Chrome (reliable)
+- Violentmonkey on Firefox (only if handlers are registered after window load event)
+- Greasemonkey (reliable)
+
+The userscript does **NOT** work for:
+- Tampermonkey
+
 [Install userscript](https://raw.github.com/brianush1/blur-privacy/master/privacy.user.js)
-
-**Warning:** if you are installing as a userscript, use Violentmonkey; it seems to work on Canvas. However, note that it might not work on *every* website if you use the userscript version.
-
-The extension works everywhere.
