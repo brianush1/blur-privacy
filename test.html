@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<script>
+			window.addEventListener("blur", e => {
+				document.getElementById("out1").innerText = "no";
+			});
+
+			window.addEventListener("focus", e => {
+				document.getElementById("out1").innerText = "yes";
+			});
+
+			setInterval(function() {
+				document.getElementById("out2").innerText
+					= document.hasFocus() ? "yes" : "no";
+			}, 1);
+		</script>
+	</head>
+	<body>
+		<div id="out1">focused</div>
+		<div id="out2">focused</div>
+	</body>
+</html>
