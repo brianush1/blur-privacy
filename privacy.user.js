@@ -1,21 +1,16 @@
 // ==UserScript==
-// @name            Blur privacy
-// @description     Prevents websites from knowing when they lose your attention
-//
-// @author          Brian <brianush1@outlook.com>
-// @namespace       http://github.com/brianush1
-// @downloadURL     https://raw.github.com/brianush1/blur-privacy/master/privacy.user.js
-//
-// @license         GPLv3 - http://www.gnu.org/licenses/gpl-3.0.txt
-// @copyright       Copyright (C) 2021, by Brian <brianush1@outlook.com>
-//
-// @include         *://*/*
-// @match           *://*/*
-//
-// @version         1.0
-// @updateURL       https://raw.github.com/brianush1/blur-privacy/master/privacy.user.js
-//
-// @run-at          document-start
+// @name         Blur privacy
+// @namespace    http://github.com/brianush1
+// @version      1.0
+// @description  Prevents websites from knowing when they lose your attention
+// @author       Brian <brianush1@outlook.com>
+// @match        *://*/*
+// @grant        none
+// @run-at       document-start
+// @downloadURL  https://raw.github.com/brianush1/blur-privacy/master/privacy.user.js
+// @updateURL    https://raw.github.com/brianush1/blur-privacy/master/privacy.user.js
+// @license      GPLv3 - http://www.gnu.org/licenses/gpl-3.0.txt
+// @copyright    Copyright (C) 2021, by Brian <brianush1@outlook.com>
 // ==/UserScript==
 
 (() => {
